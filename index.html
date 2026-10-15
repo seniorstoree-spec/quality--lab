@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>معمل الجودة | العينات المرجعية</title>
+    <title>معمل الجودة</title>
     
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -242,7 +242,7 @@
                 <div class="flex items-center gap-3">
                     <div class="w-11 h-11 rounded-xl bg-white/15 flex items-center justify-center text-2xl">🧪</div>
                     <div>
-                        <div class="font-black text-lg">{{ lang === 'ar' ? 'نظام العينات المرجعية' : 'Reference Samples' }}</div>
+                        <div class="font-black text-lg">{{ lang === 'ar' ? 'معمل الجودة' : 'Quality Lab' }}</div>
                         <div class="text-blue-100 text-xs mt-1">{{ lang === 'ar' ? 'نظام الجودة وسلامة الغذاء' : 'Quality & Food Safety' }}</div>
                     </div>
                 </div>
@@ -287,7 +287,7 @@
         <!-- Dashboard User Header -->
         <div class="bg-gradient-to-r from-blue-900 to-blue-700 text-white rounded-xl shadow-lg p-5 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div>
-                <div class="text-blue-100 text-sm font-bold">{{ lang === 'ar' ? 'لوحة تحكم نظام العينات المرجعية' : 'Reference Samples Dashboard' }}</div>
+                <div class="text-blue-100 text-sm font-bold">{{ lang === 'ar' ? 'لوحة تحكم معمل الجودة' : 'Quality Lab Dashboard' }}</div>
                 <div class="text-2xl font-black mt-1">{{ lang === 'ar' ? 'مرحباً، ' : 'Welcome, ' }}{{ auth.username || '-' }}</div>
             </div>
             <div class="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-sm font-bold">
@@ -1390,7 +1390,7 @@
         }
 
         const dictionary = {
-            "title": { en: "Quality Lab | Reference Samples", ar: "معمل الجودة – العينات المرجعية" },
+            "title": { en: "Quality Lab", ar: "معمل الجودة" },
             "subtitle": { en: "Intake form, intelligent schedules, and supervisor dashboard.", ar: "نموذج الاستلام، الجداول الذكية، ولوحة تحكم المشرف." },
             "todayDate": { en: "Today's Date", ar: "تاريخ اليوم" },
             "kpiDueToday": { en: "Samples Due Today", ar: "عينات مستحقة اليوم" },
@@ -1505,7 +1505,7 @@
             "cancel": { en: "Cancel", ar: "إلغاء" },
             "saveResult": { en: "Save Result", ar: "حفظ النتيجة" },
             "loginTitle": { en: "Sign in to Quality Lab", ar: "تسجيل الدخول إلى معمل الجودة" },
-            "loginSubtitle": { en: "Reference Samples & Quality Control System", ar: "نظام العينات المرجعية ومراقبة الجودة" },
+            "loginSubtitle": { en: "Quality Control System", ar: "نظام مراقبة الجودة" },
             "createAccount": { en: "Create account", ar: "إنشاء حساب جديد" },
             "secureSignIn": { en: "Secure sign in", ar: "تسجيل الدخول الآمن" },
             "createUsernameAccountHint": { en: "Create a regular account with a username and password, without entering an email.", ar: "أنشئ حسابًا عاديًا باسم مستخدم وكلمة مرور، بدون إدخال بريد إلكتروني." },
